@@ -1,0 +1,136 @@
+/* Body */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Main*/
+.main-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Election Container */
+.election-result-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-radius: 5px !important;
+  --bs-bg-opacity: 1;
+  background-color: #ffffff !important;
+  padding: 1rem !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  box-shadow: 0 0.125rem 0.25rem #00000013 !important;
+  width: 100%;
+  height: 850px;
+  max-width: 1160px;
+  max-height: 870px;
+  margin: 0 auto;
+}
+
+/* Political Parties Container */
+.political-parties-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 30px 0px;
+  width: 100%;
+}
+
+.political-party {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+
+.political-party-color {
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+  border-radius: 100%;
+}
+
+.akp-color {
+  background-color: #ff7800;
+}
+
+.chp-color {
+  background-color: #a90000;
+}
+
+.iyi-color {
+  background-color: #0f94ca;
+}
+
+.political-party-name {
+  font-size: 12px;
+}
+
+.political-party-percentage {
+  font-weight: bolder;
+}
+
+/* Map */
+.election-map-container {
+  width: 100%;
+  height: max-content;
+}
+
+.button-class {
+  cursor: pointer;
+}
+
+.path-class {
+  transition: 0.5s;
+}
+
+/* Election Report Container */
+.election-report-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.election-report-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 170px;
+  height: 85px;
+  padding: 0px 10px;
+}
+
+.election-report-img {
+  width: 30px;
+  height: 30px;
+}
+
+.election-report-text {
+  font-size: 12px;
+}
+
+.election-report-value {
+  font-weight: bolder;
+}
+
+/* Movable Container */
+.movable-container {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  background-color: black;
+}
