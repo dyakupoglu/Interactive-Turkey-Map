@@ -12,84 +12,17 @@
 <body>
     <div class="main-container">
         <div class="election-result-container">
-            <div class="title-container"></div>
-            <div class="political-parties-container">
-                <div class="akp political-party">
-                    <div class="akp-color political-party-color"></div>
-                    <div class="akp-name political-party-name">AK PARTİ</div>
-                    <div class="akp-percentage political-party-percentage">%35.63</div>
-                </div>
-                <div class="chp political-party">
-                    <div class="chp-color political-party-color"></div>
-                    <div class="chp-name political-party-name">CHP</div>
-                    <div class="chp-percentage political-party-percentage">%25.35</div>
-                </div>
-                <div class="iyi political-party">
-                    <div class="iyi-color political-party-color"></div>
-                    <div class="iyi-name political-party-name">İYİ PARTİ</div>
-                    <div class="iyi-percentage political-party-percentage">%9.69</div>
-                </div>
-                <div class="akp political-party">
-                    <div class="akp-color political-party-color"></div>
-                    <div class="akp-name political-party-name">AK PARTİ</div>
-                    <div class="akp-percentage political-party-percentage">%35.63</div>
-                </div>
-                <div class="chp political-party">
-                    <div class="chp-color political-party-color"></div>
-                    <div class="chp-name political-party-name">CHP</div>
-                    <div class="chp-percentage political-party-percentage">%25.35</div>
-                </div>
-                <div class="iyi political-party">
-                    <div class="iyi-color political-party-color"></div>
-                    <div class="iyi-name political-party-name">İYİ PARTİ</div>
-                    <div class="iyi-percentage political-party-percentage">%9.69</div>
-                </div>
-                <div class="akp political-party">
-                    <div class="akp-color political-party-color"></div>
-                    <div class="akp-name political-party-name">AK PARTİ</div>
-                    <div class="akp-percentage political-party-percentage">%35.63</div>
-                </div>
-                <div class="chp political-party">
-                    <div class="chp-color political-party-color"></div>
-                    <div class="chp-name political-party-name">CHP</div>
-                    <div class="chp-percentage political-party-percentage">%25.35</div>
-                </div>
-                <div class="iyi political-party">
-                    <div class="iyi-color political-party-color"></div>
-                    <div class="iyi-name political-party-name">İYİ PARTİ</div>
-                    <div class="iyi-percentage political-party-percentage">%9.69</div>
-                </div>
-                <div class="akp political-party">
-                    <div class="akp-color political-party-color"></div>
-                    <div class="akp-name political-party-name">AK PARTİ</div>
-                    <div class="akp-percentage political-party-percentage">%35.63</div>
-                </div>
-                <div class="chp political-party">
-                    <div class="chp-color political-party-color"></div>
-                    <div class="chp-name political-party-name">CHP</div>
-                    <div class="chp-percentage political-party-percentage">%25.35</div>
-                </div>
-                <div class="iyi political-party">
-                    <div class="iyi-color political-party-color"></div>
-                    <div class="iyi-name political-party-name">İYİ PARTİ</div>
-                    <div class="iyi-percentage political-party-percentage">%9.69</div>
-                </div>
-                <div class="akp political-party">
-                    <div class="akp-color political-party-color"></div>
-                    <div class="akp-name political-party-name">AK PARTİ</div>
-                    <div class="akp-percentage political-party-percentage">%35.63</div>
-                </div>
-                <div class="chp political-party">
-                    <div class="chp-color political-party-color"></div>
-                    <div class="chp-name political-party-name">CHP</div>
-                    <div class="chp-percentage political-party-percentage">%25.35</div>
-                </div>
-                <div class="iyi political-party">
-                    <div class="iyi-color political-party-color"></div>
-                    <div class="iyi-name political-party-name">İYİ PARTİ</div>
-                    <div class="iyi-percentage political-party-percentage">%9.69</div>
-                </div>
+            <div id="adminPanel" class="admin-panel">
+                <input type="text" name="" id="adminPanelInput">
+                <select name="parties" id="adminPanelDropdown">
+                    <option value="AKP">AKP</option>
+                    <option value="CHP">CHP</option>
+                    <option value="İYİ">İYİ</option>
+                    <option value="MHP">MHP</option>
+                </select>
+                <button id="submitAdminDataButton">Submit Data</button>
             </div>
+            <div class="political-parties-container"></div>
             <div class="election-map-container">
                 <div _ngcontent-rkw-c12="" class="turkey-map d-none d-lg-block">
                     <div _ngcontent-rkw-c12=""
@@ -2999,36 +2932,42 @@
                 <div class="election-report-totalChest election-report-details">
                     <img class="election-report-img" src="./img/box.svg" alt="Total Chest">
                     <div class="election-report-text">Toplam Sandık</div>
-                    <div class="election-report-value">201.807</div>
+                    <div id="election_report_totalChest_value" class="election-report-value">201.807</div>
                 </div>
                 <div class="election-report-openedChect election-report-details">
                     <img class="election-report-img" src="./img/box-open.svg" alt="Opened Chect">
                     <div class="election-report-text">Açılan Sandık</div>
-                    <div class="election-report-value">201.807</div>
+                    <div id="election_report_openedChect_value" class="election-report-value">201.807</div>
                 </div>
-                <div class="election-report-openedChest-percentage election-report-details">
+                <div class="election-report-openedChestPercentage election-report-details">
                     <img class="election-report-img" src="./img/box-percent.svg" alt="Opened Chest Percentage">
                     <div class="election-report-text">Açılan Sandık Oranı</div>
-                    <div class="election-report-value">%100.00</div>
+                    <div id="election_report_openedChestPercentage_value" class="election-report-value">%100.00</div>
                 </div>
                 <div class="election-report-totalVoter election-report-details">
                     <img class="election-report-img" src="./img/voter.svg" alt="Total Voter">
                     <div class="election-report-text">Toplam Seçmen</div>
-                    <div class="election-report-value">64.190.651</div>
+                    <div id="election_report_totalVoter_value" class="election-report-value">64.190.651</div>
                 </div>
                 <div class="election-report-usedVote election-report-details">
                     <img class="election-report-img" src="./img/vote-count.svg" alt="Used Vote">
                     <div class="election-report-text">Kullanılan Oy</div>
-                    <div class="election-report-value">55.836.055</div>
+                    <div id="election_report_usedVote_value" class="election-report-value">55.836.055</div>
                 </div>
                 <div class="election-report-validVote election-report-details">
                     <img class="election-report-img" src="./img/vote-ok.svg" alt="Valid Vote">
                     <div class="election-report-text">Geçerli Oy</div>
-                    <div class="election-report-value">54.411.090</div>
+                    <div id="election_report_validVote_value" class="election-report-value">54.411.090</div>
                 </div>
             </div>
         </div>
-        <div class="movable-container"></div>
+        <div class="movable-container">
+            <div class="movable-container-wrapper">
+                <div class="movable-container-city-name">ANKARA</div>
+                <div class="movable-container-parties-container">
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>

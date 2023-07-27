@@ -1,0 +1,74 @@
+{
+  "cities": [
+    {
+      "id": "ankara",
+      "color": "ff7800",
+      "parties": [
+        {
+          "AKP": 1000
+        },
+        {
+          "CHP": 1000
+        },
+        {
+          "İYİ": 1000
+        }
+      ]
+    },
+    {
+      "id": "istanbul",
+      "color": "ff7800",
+      "parties": [
+        {
+          "AKP": 1000
+        },
+        {
+          "CHP": 1000
+        },
+        {
+          "İYİ": 1000
+        }
+      ]
+    },
+    {
+      "id": "van",
+      "color": "ff7800",
+      "parties": [
+        {
+          "AKP": 1000
+        },
+        {
+          "CHP": 1000
+        },
+        {
+          "İYİ": 1000
+        }
+      ]
+    }
+  ],
+  "patyPercentages": [
+    {
+      "id": "ak parti",
+      "color": "ff7800",
+      "percentage": "35.63"
+    },
+    {
+      "id": "chp",
+      "color": "a90000",
+      "percentage": "25.35"
+    },
+    {
+      "id": "iyi parti",
+      "color": "0f94ca",
+      "percentage": "9.69"
+    }
+  ],
+  "generalInformation": {
+    "totalChest": "201.807",
+    "openedChest": "201.807",
+    "openedChestPercentage": "201.807",
+    "totalVoter": "201.807",
+    "usedVote": "201.807",
+    "validVote": "201.807"
+  }
+}
