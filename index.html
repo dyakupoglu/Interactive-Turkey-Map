@@ -12,15 +12,19 @@
 <body>
     <div class="main-container">
         <div class="election-result-container">
+            <div class="election-title-container">Turkey Election Map</div>
             <div id="adminPanel" class="admin-panel">
-                <input type="text" name="" id="adminPanelInput">
-                <select name="parties" id="adminPanelDropdown">
+                <div id="adminPanelInputContainer" class="adminPanelClass">
+                    <div id="adminPanelCurrentCity">Select a City on the Map</div>
+                    <input disabled="disabled" type="text" name= "numonly" id="adminPanelInput">
+                </div>
+                <select disabled="disabled" name="parties" id="adminPanelDropdown" class="adminPanelClass">
                     <option value="AKP">AKP</option>
                     <option value="CHP">CHP</option>
                     <option value="İYİ">İYİ</option>
                     <option value="MHP">MHP</option>
                 </select>
-                <button id="submitAdminDataButton">Submit Data</button>
+                <button disabled="disabled" id="submitAdminDataButton" class="adminPanelClass">Submit Data</button>
             </div>
             <div class="political-parties-container"></div>
             <div class="election-map-container">
@@ -2931,32 +2935,32 @@
             <div class="election-report-container">
                 <div class="election-report-totalChest election-report-details">
                     <img class="election-report-img" src="./img/box.svg" alt="Total Chest">
-                    <div class="election-report-text">Toplam Sandık</div>
+                    <div class="election-report-text">Total Chests</div>
                     <div id="election_report_totalChest_value" class="election-report-value">201.807</div>
                 </div>
                 <div class="election-report-openedChect election-report-details">
                     <img class="election-report-img" src="./img/box-open.svg" alt="Opened Chect">
-                    <div class="election-report-text">Açılan Sandık</div>
+                    <div class="election-report-text">Opened Chest</div>
                     <div id="election_report_openedChect_value" class="election-report-value">201.807</div>
                 </div>
                 <div class="election-report-openedChestPercentage election-report-details">
                     <img class="election-report-img" src="./img/box-percent.svg" alt="Opened Chest Percentage">
-                    <div class="election-report-text">Açılan Sandık Oranı</div>
+                    <div class="election-report-text">Ratio of Opened Chests</div>
                     <div id="election_report_openedChestPercentage_value" class="election-report-value">%100.00</div>
                 </div>
                 <div class="election-report-totalVoter election-report-details">
                     <img class="election-report-img" src="./img/voter.svg" alt="Total Voter">
-                    <div class="election-report-text">Toplam Seçmen</div>
+                    <div class="election-report-text">Total Voter</div>
                     <div id="election_report_totalVoter_value" class="election-report-value">64.190.651</div>
                 </div>
                 <div class="election-report-usedVote election-report-details">
                     <img class="election-report-img" src="./img/vote-count.svg" alt="Used Vote">
-                    <div class="election-report-text">Kullanılan Oy</div>
+                    <div class="election-report-text">Votes Used</div>
                     <div id="election_report_usedVote_value" class="election-report-value">55.836.055</div>
                 </div>
                 <div class="election-report-validVote election-report-details">
                     <img class="election-report-img" src="./img/vote-ok.svg" alt="Valid Vote">
-                    <div class="election-report-text">Geçerli Oy</div>
+                    <div class="election-report-text">Valid Votes</div>
                     <div id="election_report_validVote_value" class="election-report-value">54.411.090</div>
                 </div>
             </div>
