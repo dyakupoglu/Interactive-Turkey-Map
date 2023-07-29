@@ -7,23 +7,23 @@ const dummyData = {
     ankara: {
       color: "ff7800",
       parties: {
-        akp: {
-          partyAcronym: "AKP",
-          partyName: "ak parti",
+        a: {
+          partyAcronym: "a",
+          partyName: "b party",
           partyPercantage: 10.1,
           totalVote: 12000,
           color: "ff7800",
         },
-        chp: {
-          partyAcronym: "CHP",
-          partyName: "chp",
+        b: {
+          partyAcronym: "b",
+          partyName: "b party",
           partyPercantage: 10.1,
           totalVote: 25000,
           color: "a90000",
         },
         iyi: {
-          partyAcronym: "İYİ",
-          partyName: "iyi parti",
+          partyAcronym: "c",
+          partyName: "c party",
           partyPercantage: 10.1,
           totalVote: 10000,
           color: "0f94ca",
@@ -33,16 +33,16 @@ const dummyData = {
     istanbul: {
       color: "ff7800",
       parties: {
-        akp: {
-          partyAcronym: "AKP",
-          partyName: "ak parti",
+        a: {
+          partyAcronym: "a",
+          partyName: "b party",
           partyPercantage: 10.1,
           totalVote: 12000,
           color: "ff7800",
         },
-        chp: {
-          partyAcronym: "CHP",
-          partyName: "chp",
+        b: {
+          partyAcronym: "b",
+          partyName: "b party",
           partyPercantage: 10.1,
           totalVote: 25000,
           color: "a90000",
@@ -52,30 +52,30 @@ const dummyData = {
     van: {
       color: "ff7800",
       parties: {
-        akp: {
-          partyAcronym: "AKP",
-          partyName: "ak parti",
+        a: {
+          partyAcronym: "a",
+          partyName: "b party",
           partyPercantage: 10.1,
           totalVote: 12000,
           color: "ff7800",
         },
-        chp: {
-          partyAcronym: "CHP",
-          partyName: "chp",
+        b: {
+          partyAcronym: "b",
+          partyName: "b party",
           partyPercantage: 10.1,
           totalVote: 25000,
           color: "a90000",
         },
         iyi: {
-          partyAcronym: "İYİ",
-          partyName: "iyi parti",
+          partyAcronym: "c",
+          partyName: "c party",
           partyPercantage: 10.1,
           totalVote: 10000,
           color: "0f94ca",
         },
-        mhp: {
-          partyAcronym: "MHP",
-          partyName: "MHP",
+        d: {
+          partyAcronym: "d",
+          partyName: "d party",
           partyPercantage: 45.41,
           totalVote: 25000,
           color: "ff00ff",
@@ -89,22 +89,22 @@ const dummyData = {
   //   color: "ff7800",
   //   parties: [
   //     {
-  //       partyAcronym: "AKP",s
-  //       partyName: "ak parti",
+  //       partyAcronym: "a",s
+  //       partyName: "b party",
   //       partyPercantage: 10.1,
   //       totalVote: 12000,
   //       color: "ff7800",
   //     },
   //     {
-  //       partyAcronym: "CHP",
-  //       partyName: "chp",
+  //       partyAcronym: "b",
+  //       partyName: "b party",
   //       partyPercantage: 10.1,
   //       totalVote: 25000,
   //       color: "a90000",
   //     },
   //     {
-  //       partyAcronym: "İYİ",
-  //       partyName: "iyi parti",
+  //       partyAcronym: "c",
+  //       partyName: "c party",
   //       partyPercantage: 10.1,
   //       totalVote: 10000,
   //       color: "0f94ca",
@@ -116,15 +116,15 @@ const dummyData = {
   //   color: "ff7800",
   //   parties: [
   //     {
-  //       partyAcronym: "AKP",
-  //       partyName: "ak parti",
+  //       partyAcronym: "a",
+  //       partyName: "b party",
   //       partyPercantage: 10.1,
   //       totalVote: 12000,
   //       color: "ff7800",
   //     },
   //     {
-  //       partyAcronym: "CHP",
-  //       partyName: "chp",
+  //       partyAcronym: "b",
+  //       partyName: "b party",
   //       partyPercantage: 10.1,
   //       totalVote: 25000,
   //       color: "a90000",
@@ -136,29 +136,29 @@ const dummyData = {
   //   color: "ff7800",
   //   parties: [
   //     {
-  //       partyAcronym: "AKP",
-  //       partyName: "ak parti",
+  //       partyAcronym: "a",
+  //       partyName: "b party",
   //       partyPercantage: 10.1,
   //       totalVote: 12000,
   //       color: "ff7800",
   //     },
   //     {
-  //       partyAcronym: "CHP",
-  //       partyName: "chp",
+  //       partyAcronym: "b",
+  //       partyName: "b party",
   //       partyPercantage: 10.1,
   //       totalVote: 25000,
   //       color: "a90000",
   //     },
   //     {
-  //       partyAcronym: "İYİ",
-  //       partyName: "iyi parti",
+  //       partyAcronym: "c",
+  //       partyName: "c party",
   //       partyPercantage: 10.1,
   //       totalVote: 10000,
   //       color: "0f94ca",
   //     },
   //     {
-  //       partyAcronym: "MHP",
-  //       partyName: "MHP",
+  //       partyAcronym: "d",
+  //       partyName: "d party",
   //       partyPercantage: 45.41,
   //       totalVote: 25000,
   //       color: "ff00ff",
@@ -168,17 +168,17 @@ const dummyData = {
   // ],
   patyPercentages: [
     {
-      id: "ak parti",
+      id: "A Party",
       color: "ff7800",
       percentage: "35.63",
     },
     {
-      id: "chp",
+      id: "B Party",
       color: "a90000",
       percentage: "25.35",
     },
     {
-      id: "iyi parti",
+      id: "C Party",
       color: "0f94ca",
       percentage: "9.69",
     },
@@ -191,7 +191,7 @@ const dummyData = {
     usedVote: "201.807",
     validVote: "201.807",
   },
-  totalNumberOfParties: ["AKP", "CHP", "İYİ", "MHP"],
+  nameOfParties: ["A Party", "B Party", "C Party", "D Party"],
 };
 
 const apiUrl = "https://turkeyMap/admin/data"; /// It can be changed according to the updated data url.
@@ -417,7 +417,6 @@ function setCityData(data) {
 
   let tempData = data.parties;
   Object.keys(tempData).forEach((item, index) => {
-    console.info(tempData[item]);
     const newPartyDOM = $("<div></div>").addClass(
       "movable-container-parties-wrapper"
     );
@@ -459,25 +458,11 @@ function setCityData(data) {
 }
 
 function setPartiesTotheDropdown(data) {
-  const parentDom = $("#adminPanelDropdown");
-
-  /// Remove created uniques city data html elements.
-  $(".movable-container-parties-wrapper").empty().remove();
+  const parentDom = $("#adminPanelDropdown").html(``);
 
   data.forEach((item, index) => {
-    const newPartyDOM = $("<div></div>").addClass(
-      "movable-container-parties-wrapper"
-    );
-    parentDom.append(newPartyDOM);
-
-    const newChild_1 = $("<div></div>").addClass(
-      "movable-container-child-containers"
-    );
-    newPartyDOM.append(newChild_1);
-    const newChildChild_1 = $("<div></div>")
-      .addClass("movable-container-partyName movable-container-fontWeight")
-      .html(item.partyName);
-    newChild_1.append(newChildChild_1);
+    const newOptionDOM = $(`<option value=${item}>${item}</option>`);
+    parentDom.append(newOptionDOM);
   });
 }
 
@@ -500,7 +485,7 @@ function initializeApplication() {
   bindActionEvents();
   setPartyPercentagesData(dummyData.patyPercentages);
   setGeneralInformationData(dummyData.generalInformation);
-  // setPartiesTotheDropdown(dummyData.allNameOfParties);
+  setPartiesTotheDropdown(dummyData.nameOfParties);
 
   if (!isAdmin) {
     $("#adminPanel").hide();

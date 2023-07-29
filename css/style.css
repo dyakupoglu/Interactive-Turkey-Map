@@ -59,18 +59,6 @@ body {
   border-radius: 100%;
 }
 
-.akp-color {
-  background-color: #ff7800;
-}
-
-.chp-color {
-  background-color: #a90000;
-}
-
-.iyi-color {
-  background-color: #0f94ca;
-}
-
 .political-party-name {
   font-size: 12px;
 }
@@ -190,7 +178,7 @@ body {
   display: flex;
   align-items: end;
   justify-content: center;
-  width: 550px;
+  width: 100%;
   /* background-color: rgba(255, 255, 255, 1);
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25); */
 }
